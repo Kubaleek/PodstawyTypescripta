@@ -139,7 +139,7 @@ const concatenateString: StringNumberToString = (input, count) => {
 };
 
 const result = concatenateString("Wynik: ", 25);
-console.log(result); // Wydrukuje: "Wynik: 5"
+console.log(result);
 
 
 // 8. Klasy i dziedziczenie
