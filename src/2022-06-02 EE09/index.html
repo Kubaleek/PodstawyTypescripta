@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022-06-02 INF03</title>
+    <script src="../../lib/2022-06-02 EE09/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form onsubmit="handleSubmit2(event)">
+            <input type="number" min="0" max="360" id="colorInput" name="colorInput" required>
+            <button type="submit" id="btn">Generuj paletę:</button>
+        </form>
+    </div>
+    <div>
+    <!-- Tabela o czterech kolumnach i dwóch wierszach, z czego pierwszy wiersz ma wszystkie komórki połączone, wypełniona zgodnie z Obrazem 2 -->
+    <table>
+        <tr>
+            <td colspan="4">Kolor Główny</td>
+        </tr>
+        <tr>
+            <td>Kolor 2</td>
+            <td>Kolor 3</td>
+            <td>Kolor 4</td>
+            <td>Kolor 5</td>
+        </tr>
+     </table>
+    </div>
+</body>
+</html>
