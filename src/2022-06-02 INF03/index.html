@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022-06-02 INF03</title>
+    <script src="../../lib/2022-06-02 INF03/script.js" defer></script>
+</head>
+<body>
+    <form style="display: flex; flex-direction: column; gap: 6px;" onsubmit="handleSubmit(event)">
+        <div>
+            <label>Rodzaj paliwa (1-benzyna, 2-olej napędowy)</label> <br/>
+            <input type="number" id="FuelType" name="FuelType"/>
+        </div>
+        <div>
+            <label>Ile Litrów</label> <br/>
+            <input type="number" id="FuelLitr" name="FuelLitr"/>
+        </div>
+        <div>
+            <button type="submit" id="btn">Oblicz</button>
+        </div>
+    </form>
+
+    <p id="resultCost"></p>
+</body>
+</html>

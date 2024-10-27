@@ -2,8 +2,8 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"],
   "compilerOptions": {
-    "target": "ES2020",
-    "lib": ["ESNext"],
+    "target": "es5",
+    "lib": ["es6", "dom"],
     "module": "commonjs",
     "allowJs": true,
     "outDir": "lib",

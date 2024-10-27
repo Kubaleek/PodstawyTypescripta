@@ -1,7 +1,7 @@
 // 1. Typy proste i zmienne
 // Zadeklaruj zmienne różnych typów (np. string, number, boolean) i przypisz im odpowiednie wartości.
 // Zmodyfikuj typy tych zmiennych i sprawdź, czy kompilator TypeScriptu wykrywa błędy typowania.
-const name: string = "Janusz";
+const test: string = "Janusz";
 const age: number = 36;
 const isAdmin: boolean = true;
 const objects: object = {
@@ -150,8 +150,6 @@ class Animal {
     protected name: string;
     protected age: number;
     
-
-
     constructor(name: string, age: number) {
         this.name = name;
         this.age = age;
