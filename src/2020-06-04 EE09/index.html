@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022-06-02 INF03</title>
+    <script src="../../lib/2022-06-02 EE09/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="../../lib/2020-06-04 EE09/script.js"></script>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; gap: 24px;">
+        <form style="display: flex; flex-direction: column; gap: 12px;" onsubmit="HandleSubmit(event)">
+           <h2>Sprawdź cene swojej wizyty</h2>
+           <div>
+            <input type="checkbox" name="" id="oneTypeCost" value="45"> 
+            <label>Piling</label>
+           </div>
+           <div>
+            <input type="checkbox" name="" id="twoTypeCost" value="30"> 
+            <label>Maska</label>
+           </div>
+           <div>
+            <input type="checkbox" name="" id="threeTypeCost" value="20"> 
+            <label>Masaż Twarzy</label>
+           </div>
+           <div>
+            <input type="checkbox" name="" id="fourTypeCost" value="5"> 
+            <label>Regulacja brwi</label>
+           </div>
+            <button type="submit" id="btn">Sprawdź cene</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <div>
+
+    </div>
+</body>
+</html>

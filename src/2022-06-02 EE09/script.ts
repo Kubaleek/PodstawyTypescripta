@@ -1,4 +1,4 @@
-// W Tabeli 1 podano Wybrane pola i metody modelu DOM języka JavaScript. Wymagania dotyczące skryptu:
+// W Tabeli 1 podano Wybrane pola i metody modelu DOM języka JavaScript. Wymagania dotyczące skryptu:2 
 // Napisany w języku JavaScript
 // Składa się z funkcji wywoływanej po wciśnięciu przycisku
 // Pobiera wartość wpisaną w polu edycyjnym
@@ -20,7 +20,7 @@ const handleSubmit2 = (e: Event) => {
 
     cls.forEach((c, i) => {
         const cell = c as HTMLElement;
-        cell.style.backgroundColor = `hsl(${H}, 100%, ${L}%)`;
+        cell.style.backgroundColor = `hsl(${H}, 1     00%, ${L}%)`;
         cell.style.backgroundColor = `hsl(${H}, ${S[i]}%, ${L}%)`;
     });
 
