@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022-06-02 INF03</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../../lib/2020-06-05 EE09/script.js" defer></script>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; gap: 24px;">
+        <h1>Dziś promocja na strzyżenie włosów</h1>
+        <form onsubmit="HandlerSubmit(event)">
+            <div>
+                <input type="radio" name="group1" id="one" value="25">
+                <label>Krótkie</label>
+            </div>
+            <div>
+                <input type="radio" name="group1" id="two" value="30">
+                <label>Średnie</label>
+            </div>
+            <div>
+                <input type="radio" name="group1" id="three" value="40">
+                <label>Półdługie</label>
+            </div>
+            <div>
+                <input type="radio" name="group1" id="four" value="50">
+                <label>Długie</label>
+            </div>
+            <br>
+            <button type="submit">Odkryj Promocję</button>
+        </form>
+        <p id="costResult"></p>
+    </div>
+</body>
+</html>
